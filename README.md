@@ -2,8 +2,8 @@
 
 React JS || Bootstrap
 
-![](SmartTourism/src/img/st1.png)
-![](SmartTourism/src/img/st2.png)
-![](SmartTourism/src/img/st3.png)
-![](SmartTourism/src/img/st4.png)
-![](SmartTourism/src/img/st5.png)
+![](images/st1.png)
+![](images/st2.png)
+![](images/st3.png)
+![](images/st4.png)
+![](images/st5.png)
