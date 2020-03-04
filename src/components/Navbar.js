@@ -42,7 +42,10 @@ class NavbarMain extends React.Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="https://www.unwto.org">About</NavLink>
+                  <NavLink href="#aboutBody">About</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="#contactBody">Contact</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>

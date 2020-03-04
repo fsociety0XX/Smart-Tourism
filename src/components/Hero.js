@@ -8,7 +8,7 @@ const Hero = () => (
         <div className="item-center">
           <h1>Travel Across The World</h1>
           <h3>Tours | Travel | Guide</h3>
-          <Button outline color="warning" href="https://www.google.com/">
+          <Button outline color="warning" href="#package">
             Explore More
           </Button>{" "}
         </div>

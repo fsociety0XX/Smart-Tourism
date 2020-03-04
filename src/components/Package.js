@@ -19,15 +19,15 @@ const tours = [
     img: imgCard1,
     alt: "blah blah",
     title: "Seaside Resort",
-    subtitle: "Batangas Resort"
+    subtitle: "Goa"
   },
   {
     id: 2,
     category: ["beach", "mountain"],
     img: imgCard2,
     alt: "blah blah",
-    title: "Isla de Gigantes",
-    subtitle: "Carles, Iloilo"
+    title: "Beach & mountain",
+    subtitle: "Daman & Diu"
   },
   {
     id: 3,
@@ -35,63 +35,63 @@ const tours = [
     img: imgCard3,
     alt: "blah blah",
     title: "The Farm",
-    subtitle: "San Benito, Batangas"
+    subtitle: "Uttrakhand"
   },
   {
     id: 4,
     category: ["climbing", "mountain"],
     img: imgCard4,
     alt: "blah blah",
-    title: "Poog",
-    subtitle: "Cebu"
+    title: "Mount Combat",
+    subtitle: "Jammu"
   },
   {
     id: 5,
     category: ["resort", "honeymoon", "beach"],
     img: imgCard5,
     alt: "blah blah",
-    title: "Koro Sun Resort & Rainforest Spa",
-    subtitle: "Vanua Levu, Fiji"
+    title: "Shimla",
+    subtitle: "Criss Resort"
   },
   {
     id: 6,
     category: ["climbing", "mountain"],
     img: imgCard6,
     alt: "blah blah",
-    title: "Pi Shan",
-    subtitle: "Yangshuo China"
+    title: "Triple Tower",
+    subtitle: "Himachal Pradesh"
   },
   {
     id: 7,
     category: ["beach", "climbing"],
     img: imgCard7,
     alt: "blah blah",
-    title: "El-Nido",
-    subtitle: "Palawan"
+    title: "British Beach",
+    subtitle: "Andaman & Nicobar"
   },
   {
     id: 8,
     category: ["honeymoon", "beach", "resort"],
     img: imgCard8,
     alt: "blah blah",
-    title: "Shangri-La’s Boracay Resort and Spa",
-    subtitle: "Boracay Resort"
+    title: "Darjeeling",
+    subtitle: "West Bengal"
   },
   {
     id: 9,
     category: ["beach", "resort"],
     img: imgCard9,
     alt: "blah blah",
-    title: "HUMANA Island Resort & Spa",
-    subtitle: "Palawan"
+    title: "Tea Garden",
+    subtitle: "Kerela"
   },
   {
     id: 10,
     category: ["camping", "beach"],
     img: imgBarobaybay,
     alt: "camping in the lake",
-    title: "Barobaybay Camp Site",
-    subtitle: "Barobaybay, Lavezares N. Samar"
+    title: "Dal Lake",
+    subtitle: "Srinagar"
   }
 ];
 
@@ -120,7 +120,7 @@ class Package extends Component {
     return (
       <div className="subComponent-lg" id="packageBody">
         <Container>
-          <header className="headerTitle text-center">
+          <header className="headerTitle text-center" id="package">
             <h1>Tour Packages</h1>
             <p>A Great Collection of Our Tour Packages</p>
           </header>
